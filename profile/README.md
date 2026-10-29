@@ -110,7 +110,7 @@ succeeded.
 
 ## Open source
 
-| Repository | What it is | |
+| Repository | What it is | Stars |
 |---|---|---|
 | [**deputy**](https://github.com/RazinAI/deputy) | The browser agent and its MCP server | ![stars](https://img.shields.io/github/stars/RazinAI/deputy?style=flat&color=9A3A1E&label=%E2%98%85) |
 | [**argus**](https://github.com/RazinAI/argus) | Live YOLO object detection across many video streams, in C++ | ![stars](https://img.shields.io/github/stars/RazinAI/argus?style=flat&color=9A3A1E&label=%E2%98%85) |
@@ -164,12 +164,16 @@ uv tool install globalmm
 
 ## How we work
 
-| | |
-|---|---|
-| **Runs where you are** | Models run on the phone, in the browser or on your servers. Your data stays put unless you decide otherwise. |
-| **Measured, not asserted** | Every number we publish comes with the method that produced it. If we haven't measured it, we don't claim it. |
-| **Arabic as a first language** | Arabic isn't a translation layer. We test on Arabic text, mixed scripts and right-to-left layouts from the start. |
-| **Say what isn't built** | Limits get listed as clearly as features. A developer preview is labelled as one. |
+<table>
+<tr>
+<td width="50%" valign="top"><b>Runs where you are</b><br>Models run on the phone, in the browser or on your servers. Your data stays put unless you decide otherwise.</td>
+<td width="50%" valign="top"><b>Measured, not asserted</b><br>Every number we publish comes with the method that produced it. If we haven't measured it, we don't claim it.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><b>Arabic as a first language</b><br>Arabic isn't a translation layer. We test on Arabic text, mixed scripts and right-to-left layouts from the start.</td>
+<td width="50%" valign="top"><b>Say what isn't built</b><br>Limits get listed as clearly as features. A developer preview is labelled as one.</td>
+</tr>
+</table>
 
 <br>
 
