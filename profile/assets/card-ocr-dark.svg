@@ -17,7 +17,7 @@
         <rect x=".5" y=".5" width="499" height="329" rx="18" fill="#2A1712" stroke="#45302A"/>
         <g transform="translate(36 30)">
       <rect width="64" height="64" rx="15" fill="#23130F" stroke="#45302A"/>
-      <text x="32" y="44" text-anchor="middle" style="font-family: 'Noto Kufi Arabic', 'Geeza Pro', 'Segoe UI', 'Noto Sans Arabic', sans-serif; font-size: 32px; font-weight: 700; fill: #EEE9DC">ضاد</text>
+      <text x="32" y="42" text-anchor="middle" style="font-family: 'Noto Kufi Arabic', 'Geeza Pro', 'Segoe UI', 'Noto Sans Arabic', sans-serif; font-size: 23px; font-weight: 700; fill: #EEE9DC">رزين</text>
       <rect class="scan" x="8" y="10" width="48" height="3" rx="1.5" fill="#E3AE45"/>
     </g>
         <text class="name" x="118" y="58">Razin OCR</text>

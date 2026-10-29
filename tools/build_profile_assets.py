@@ -141,7 +141,7 @@ PRODUCTS = [
 def ocr_icon(t):
     return f"""
       <rect width="64" height="64" rx="15" fill="{t['ground2']}" stroke="{t['line']}"/>
-      <text x="32" y="44" text-anchor="middle" style="font-family: {ARABIC}; font-size: 32px; font-weight: 700; fill: {t['ink']}">ضاد</text>
+      <text x="32" y="42" text-anchor="middle" style="font-family: {ARABIC}; font-size: 23px; font-weight: 700; fill: {t['ink']}">رزين</text>
       <rect class="scan" x="8" y="10" width="48" height="3" rx="1.5" fill="{t['signal']}"/>
     """
 
