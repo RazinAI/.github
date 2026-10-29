@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Deputy: < > closed into a badge around one element (the dot, in Razin's henna). -->
+  <rect width="64" height="64" rx="15" fill="#23130F"/>
+  <path d="M28.5 13.6 14.1 31.9 28.5 50.2M35.5 13.6 49.9 31.9 35.5 50.2" fill="none" stroke="#EEE9DC" stroke-width="5.6" stroke-linecap="square"/>
+  <circle cx="32" cy="31.9" r="5.7" fill="#E8956A"/>
+</svg>

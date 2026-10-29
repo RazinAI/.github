@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 330" width="500" height="330" role="img" aria-label="Razin OCR: OCR for images and scanned PDFs on your own hardware, made to be especially good at Arabic, dots and diacritics included."><title>Razin OCR: OCR for images and scanned PDFs on your own hardware, made to be especially good at Arabic, dots and diacritics included.</title><style>
+      text { font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .name { font-size: 30px; font-weight: 750; fill: #EEE9DC; }
+      .kind { font-size: 17px; fill: #B0A699; }
+      .pill { font-size: 14px; font-weight: 600; fill: #B0A699; }
+      .desc { font-size: 19px; fill: #EEE9DC; }
+      .fk { font-size: 15px; fill: #B0A699; }
+      .fv { font-size: 15px; fill: #EEE9DC; font-weight: 600; }
+      .card { animation: in .7s ease-out both; }
+      @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; } }
+      .pulse { animation: pulse 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes pulse { from { opacity: .7; transform: scale(1); } to { opacity: 0; transform: scale(2.6); } }
+      .scan { animation: scan 2.6s ease-in-out infinite alternate; }
+      @keyframes scan { from { transform: translateY(0); } to { transform: translateY(42px); } }
+    </style>
+      <g class="card">
+        <rect x=".5" y=".5" width="499" height="329" rx="18" fill="#2A1712" stroke="#45302A"/>
+        <g transform="translate(36 30)">
+      <rect width="64" height="64" rx="15" fill="#23130F" stroke="#45302A"/>
+      <text x="32" y="44" text-anchor="middle" style="font-family: 'Noto Kufi Arabic', 'Geeza Pro', 'Segoe UI', 'Noto Sans Arabic', sans-serif; font-size: 32px; font-weight: 700; fill: #EEE9DC">ضاد</text>
+      <rect class="scan" x="8" y="10" width="48" height="3" rx="1.5" fill="#E3AE45"/>
+    </g>
+        <text class="name" x="118" y="58">Razin OCR</text>
+        <text class="kind" x="118" y="82">Model</text>
+        <rect x="315.20000000000005" y="33" width="148.79999999999998" height="28" rx="14" fill="none" stroke="#B0A699" stroke-opacity=".55"/>
+        <circle cx="331.20000000000005" cy="47" r="4" fill="#B0A699"/>
+        <text class="pill" x="343.20000000000005" y="52">In development</text>
+        <text class="desc" x="36" y="140">OCR for images and scanned PDFs on your own</text><text class="desc" x="36" y="167">hardware, made to be especially good at</text><text class="desc" x="36" y="194">Arabic, dots and diacritics included.</text>
+        <line x1="36" x2="464" y1="224" y2="224" stroke="#45302A"/>
+        <text class="fk" x="36" y="252">Input</text><text class="fv" x="118" y="252">PNG, JPEG, scanned PDF</text><text class="fk" x="36" y="277">Output</text><text class="fv" x="118" y="277">Text + JSON with reading order</text><text class="fk" x="36" y="302">Runs on</text><text class="fv" x="118" y="302">Your CPU, no network</text>
+      </g>
+    </svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Link: a route from your phone (the ring) to your computer (the node), drawn as an L.
+       Scaled from Link/brand/link-icon.svg onto the rounded tile the other product glyphs use. -->
+  <rect width="64" height="64" rx="15" fill="#111514"/>
+  <g transform="scale(0.125)">
+    <path d="M187 213 V291 a64 64 0 0 0 64 64 H287" fill="none" stroke="#8fd3c5" stroke-width="34" stroke-linecap="round"/>
+    <circle cx="187" cy="167" r="44" fill="none" stroke="#f1f3ef" stroke-width="30"/>
+    <circle cx="335" cy="355" r="50" fill="#8fd3c5"/>
+  </g>
+</svg>

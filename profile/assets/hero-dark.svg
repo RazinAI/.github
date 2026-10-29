@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 380" width="1280" height="380" role="img" aria-label="Razin: AI that runs where you are"><title>Razin: AI that runs where you are</title><style>
+      text { font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .name { font-size: 84px; font-weight: 800; fill: #EEE9DC; letter-spacing: -2px; }
+      .ar { font-family: 'Noto Kufi Arabic', 'Geeza Pro', 'Segoe UI', 'Noto Sans Arabic', sans-serif; font-size: 58px; font-weight: 700; fill: #E8956A; }
+      .lead { font-size: 40px; font-weight: 600; fill: #EEE9DC; }
+      .rot { font-size: 40px; font-weight: 600; fill: #E8956A; opacity: 0;
+              animation: rot 9s infinite both; }
+      .r1 { animation-delay: 3s; } .r2 { animation-delay: 6s; }
+      @keyframes rot { 0% { opacity: 0; transform: translateY(14px); }
+                        5% { opacity: 1; transform: translateY(0); }
+                        30% { opacity: 1; transform: translateY(0); }
+                        35% { opacity: 0; transform: translateY(-14px); }
+                        100% { opacity: 0; } }
+      .sub { font-size: 23px; fill: #B0A699; }
+      .mark { color: #EEE9DC; animation: rise 1s ease-out both; }
+      @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; } }
+      .band { stroke-dasharray: 1; stroke-dashoffset: 1; opacity: .95;
+               animation: draw 1.6s cubic-bezier(.2,.7,.2,1) forwards, drift 7s ease-in-out 1.6s infinite alternate; }
+      .b1 { animation-delay: .12s, 1.72s; } .b2 { animation-delay: .24s, 1.84s; }
+      .b3 { animation-delay: .36s, 1.96s; } .b4 { animation-delay: .48s, 2.08s; }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @keyframes drift { from { transform: translateY(0); } to { transform: translateY(-14px); } }
+      .dot { fill: #E3AE45; animation: blink 2.4s ease-in-out infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+    </style>
+      <defs><clipPath id="c"><rect width="1280" height="380" rx="24"/></clipPath></defs>
+      <g clip-path="url(#c)">
+        <rect width="1280" height="380" fill="#1A0E0B"/>
+        <path class="band b0" d="M1010 260 C 1070 140, 1160 60, 1320 45" stroke="#7E2E1C" stroke-width="26" fill="none" stroke-linecap="round" pathLength="1"/><path class="band b1" d="M1010 312 C 1070 192, 1160 112, 1320 97" stroke="#B8652A" stroke-width="26" fill="none" stroke-linecap="round" pathLength="1"/><path class="band b2" d="M1010 364 C 1070 244, 1160 164, 1320 149" stroke="#D9A02B" stroke-width="26" fill="none" stroke-linecap="round" pathLength="1"/><path class="band b3" d="M1010 416 C 1070 296, 1160 216, 1320 201" stroke="#F0CB7A" stroke-width="26" fill="none" stroke-linecap="round" pathLength="1"/><path class="band b4" d="M1010 468 C 1070 348, 1160 268, 1320 253" stroke="#EEE9DC" stroke-width="26" fill="none" stroke-linecap="round" pathLength="1"/>
+      </g>
+      <rect x=".5" y=".5" width="1279" height="379" rx="24" fill="none" stroke="#45302A"/>
+      <g class="mark" transform="translate(64 84) scale(2.5)"><path d="M31.5 5H42.5V87H31.5Z" fill="currentColor"/><path d="M53.30 54.35L62.70 48.65L82.94 82H70.07Z" fill="currentColor"/><path d="M31.5 15.5H65A18 18 0 0 1 65 51.5C47.19 51.50 26.26 58.51 16.37 80.50" fill="none" stroke="currentColor" stroke-width="11"/></g>
+      <text class="name" x="330" y="150">Razin</text>
+      <text class="ar" x="560" y="148">رزين</text>
+      <text class="lead" x="330" y="215">AI that runs where you are,</text>
+      <text class="rot r0" x="330" y="265">on your phone.</text><text class="rot r1" x="330" y="265">in your browser.</text><text class="rot r2" x="330" y="265">on your own machines.</text>
+      <circle class="dot" cx="338" cy="318" r="6"/>
+      <text class="sub" x="356" y="326">Arabic and English. Your data stays where it already is.</text>
+    </svg>
